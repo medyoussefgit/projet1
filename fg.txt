@@ -1,0 +1,52 @@
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop
+$ mkdir learn-git-again
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop
+$ touch third.txt
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop
+$ git init
+Initialized empty Git repository in C:/Users/JOSSEF/Desktop/.git/
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git add third.txt
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git commit -m"adding third.txt"
+[master (root-commit) a80a331] adding third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.txt
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git config--global user.email "medyoussef17111993@gmail.com"
+git: 'config--global' is not a git command. See 'git --help'.
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git config --global user.name "medyoussefgit"
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git commit -m "adding third.txt"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Visual Studio Code.lnk
+        desktop.ini
+        projet/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git.log
+bash: git.log: command not found
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$ git log
+commit a80a33178d02647f56c3476a876e826314833a68 (HEAD -> master)
+Author: medyoussefgit <medyoussef17111993@gmail.com>
+Date:   Fri Jan 21 10:33:34 2022 +0100
+
+    adding third.txt
+
+JOSSEF@DESKTOP-TVEVHTT MINGW64 ~/Desktop (master)
+$
